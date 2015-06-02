@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <title>My First Web Page </title>
+    <link rel="stylesheet" type = "text/css"  href="style.css">
+</head>
+<body>
+    <h1>  WEBPAGES, DOCUMENTS, AND STRUCTURE </h1>
+      <br>
+    <h2 class = "lesson 1">  Lesson 1: The Basics of the Web and HTML </h2>
+    <div class = "concept-title">  The Basics of the Web </div>
+      <h4 > World Wide Web</h4>
+    <div class = "concept-description">
+    <p>The World Wide Web is a collection of HTML documents. HTML is the basis for almost every webpage and the links between the pages called hyperlinks.</p>
+    <p>Major pieces of the web: </p>
+  <ul>
+  	<li> HTTP: The main protocol of the web </li>
+  	<li> Servers: Computers that host the files that make up the web </li>
+  	<li> Internet: The world's largest computer network</li>
+  	<li> Browser: A program that runs on your computer to display files found on the web</li>
+    </ul>
+   </div>
+    <div class = "concept-title"> HTML </div> 
+    <div class = "app">
+    <div class ="image" ><img src ="images.jpeg" alt="html"></div>
+    <div class = "description">
+    HTML stands for HyperText Markup Language.<br>
+      HTML is made up of:
+	<ul>
+ 	 <li> text content </li>
+ 	 <li> markup </li>
+ 	 <li> references to other documents </li>
+ 	 <li> links to other pages </li>
+   	 </ul> </div>
+    
+  </div>
+      <h4 >HTML Markup</h4>
+	<p> HTML markup is made up of things called tags. An HTML tag is always contained within angled brackets &lt;  &gt;. 		Most tags have an opening tag and closing tag .Some tags do not require a closing tag called &ldquo;void&rdquo; tag.</p>
+
+  	* <b>b- Tag </b>: Anything that appers inside the b-tag appears bold . <br>
+  	*<b> em- Tag </b>: This tag makes things italics .
+
+  <h4> HTML Attributes </h4>
+	<p>Attribute is a property of an HTML element. Element refers to everything within a set of opening and closing tags. 	HTML tags can have attributes that determine the behaviour of the tag.</p>
+
+	<p>An example of a tag that uses attributes is the anchor tag : &ldquo;href&rdquo;.
+ 	 Another tag that uses attributes is the image tag: &ldquo;src&rdquo;</p>
+  	<p>I am going to learn <a href= "http://www.w3.org/html/">HTML</a></p>
+  	<div class = "concept-title">Whitespace:</div><p> All spaces in text, whitespaces, are largely ignored in HTML.To force 		out HTML to have multiple lines we can use break tag and paragraph tag.</p>
+  	<div class = "concept-title">Inline vs. block tags</div>
+  	<p> HTML elements are either inline or block.</p>
+  	<ul>
+    	 <li>Inline : Shows texts inline.</li>
+         <li> Block : Elements are in an invisible box.</li>
+      	</ul>
+
+ 
+     <h2 class = "lesson 2"> Lesson 2: Creating a Structured Documents with HTML </h2>
+   	<div class="exploring">
+      <div class = "concept-title"> Exploring the Web</div>
+        <p>Not all elements of the web is visible but all that is visible is in a rectangle. 
+          Even other shapes are in a box, making rearranging web interfaces a lot simplier.</p>
+   
+
+        <p>A HTML document can be broken down into a tree-like structure. </p>
+        
+   <h4> Vocabulary:</h4>
+
+            <b>HTML</b> (Hyper Text Markup Language): standard markup language used to create webpages
+           <br>
+           <b>CSS</b> (Cascading Style Sheets): style sheet language used for describing look and formatting of document written in markup language
+            <br>
+            <b>DOM</b> (Document Object Model): a cross-platform and language-independent convention for representing and interacting with objects in HTML and other markup languages.The nodes of every document are organized in a tree structure, called the DOM tree.
+  </div>
+  <div>
+    <h2 class = "lesson 3"> Lesson 3: Adding CSS Style to HTML Structure </h2>
+</div>
+	<div>
+	<div class = "concept-title"> Avoiding Repetition </div>
+	   <p>Adding CSS style to HTML structure is a great way to avoid repetition so programmers do not have to write the same code over and over again. It also avoids copy and pasting certain style attributes into many HTML elements. </p>
+	<p> For example: If I want to change the color of all h3 elements in my web page, then instead of manually changing the h3 elements color, adding CSS style to HTML structure makes it easy to change style of my web page So, it gives consistency to my web page and avoiding errors.</p>
+
+	<div class ="concept-title"> Understanding CSS </div>
+    <p> CSS stands for Cascading Style Sheets and they give programmers a way to control the style of related HTML elements. This is done by giving similar HTML elements the same class name and then specifying the style that should apply to that class.</p>
+    <p><b> Inheritance:</b> Inheritance is a key feature in CSS. It relies on the ancestor- descendant relationship to operate. </p>
+    <p> Given the following style sheet: </p>
+   <p> h5 {color : Peru;} -- suppose there is an h5 element with an emphasizing element &lang;em&rang; inside: the emphasized word will inherit the color of the parent element, h5.</p>
+     <h5> This to <em> illustrate </em> inheritance. </h5>
+    <p> TO LEARN MORE ABOUT HTML AND CSS : <a href ="https://www.udacity.com/course/viewer#!/c-ud304/l-2617868617/m-2698138588"> click here </a></p>
+  </div>
+
+<h1> TELLING COMPUTERS WHAT TO DO </h1>
+
+	<h2 class = "lesson" > Lesson 1: Introduction to "Serious" Programming </h2>
+
+<div class = "concept">	
+	<div class = "concept-title"> Computer </div>
+        <div class="concept-description">
+           <p> A computer generally means a programmable machine. The two principal characteristics of a computer are: it      responds to a specific set of instructions in a well-defined manner and it can execute a prerecorded list of instructions (a program). </p>
+     </div>
+</div>
+<div class = "concept">	
+	<div class = "concept-title"> Computer Program </div>
+	   <div class="concept-description">
+<p>A computer program is a list of instructions that tells the computer what to do. Some example of computer programs: A web broser like <b> Firefox, </b> <b> Apple Safari </b> can be used to view web pages on the internet. </p>
+	</div>
+</div>
+<div class = "concept">	
+	<div class = "concept-title"> Programming Language </div>
+	  <div class="concept-description">
+<p> A programming language is what programmers use to tell a computer what to do. There are many different languages for programming computers. Python is one of the programming language.  </p>
+	</div>
+</div>
+<div class = "concept">	
+	<div class = "concept-title"> Python </div >
+	   <div class="concept-description">
+<p> Python is a programming language which is called an interpreter. That means it runs our programs, it inerprets them, excutes the programs that we wrote in Python language.</p>
+		</div>
+</div>
+<div class = "concept">
+	<div class = "concept-title"> Grammar </div >
+	  <div class="concept-description">
+<p> Like English, programming languages also have a grammar that defines what strings are in the language.It is also useful in specifying how a parser should parse the language. Python language use a grammar notation called <em>Backus-Naur-Form.</em> The purpose of <em> Backus-Naur-Form </em> is to be able to precisely describe exactly the language in a way that is very simple and very concise. </p>
+        </div>
+</div>
+<div class = "concept">	
+	<div class = "concept-title"> Python Expressions </div >
+	   <div class="concept-description">
+<p> Expressions represent something, like a number or a string. Any value is an expression! If you type an expression on the command line, the interpreter evaluates it and displays the result: For example, print 1 + 1 is a valid expression but print 1 + will give error .When the Python shell displays the value of an expression, it uses the same format you would use to enter a value. </p>
+</div>
+</div>
+	
+      <h2 class = "lesson"> Lesson 2: Variables and Strings</h2>
+	
+    <div class = "concept">
+      <div class="concept-title">
+        What is a <b>variable</b> in Python?
+      </div>
+	
+      <div class="concept-description">
+        <p>
+	A Variable is a named memory location that can hold a value. Variable name can be any sequence of letters and numbers, as well as underscores. Variable must start with a letter or an underscore. Variable cannot start with a number, cannot have space in it and cannot have math symbols in it.
+        </p>
+<ul>
+	<li> <b> Legal variable name:</b> score, age,name, number_of_people,  etc.</li>
+	<li> <b> Illegal variable name:</b> 9table, 5+4value, xyz 15, etc.</li>
+</ul>
+
+        
+      </div>
+</div>   
+    <div class = "concept">
+      <div class="concept-title">
+        What does it meant to <b>assign</b> a value to a variable? How is it done?
+      </div>
+      <div class="concept-description">
+        <p> We can use the variable to create a name and use that name to refer to a variable. so the way to introduce a variable is using an assignment statement:</p>
+<p> <b> Assignment Statement: </b> An assignment statement is a line of code in which a variable is given a value.</p>
+<p> Name = Expression    </p>
+	 <p> my_score = 5
+ <span>--- Where name refers to any valid variable name and expression refers the value of name.  
+	</span> </p>
+<p> Variable can vary. Once we define the variable, we can change the value. And when we use that name again it refers to the new value. </p>
+<p> For example:</p>
+<p> hours = 10  <span>--- print hours--- output will be 10 </span></p>
+<p> If we use that name again and change the value to 15  i.e. hours = 15 <span>---print hours--- output will be 15 </span> </p>
+
+      </div>
+</div>    
+    <div class = "concept">
+      <div class="concept-title">
+        What's the difference between what the equals sign means in <span>3 + 3 = 6</span> and <span>my_score = 6</span>?
+      </div>
+      <div class="concept-description">
+        <p>
+          In the line <span> 3 + 3 = 6</span>, the equals sign means <b>"Arithmetic Experssion"</b> in python.
+        </p>
+        <p>
+          In the line <span>my_variable = 6</span>, the equals sign means <b>"Assignment Statement"</b> for variable in python. 
+        </p>
+      </div>
+    </div>
+    <div class = "concept">
+      <div class="concept-title">
+        What are some ways variables are useful?
+      </div>
+      <div class="concept-description">
+        <p>
+          Variables can be useful to programmers in many ways:
+        </p>
+        <ul>
+          <li> Variables play an important role in computer programming because they enable programmers to write flexible programs. Rather than entering data directly into a program, a programmer can use variables to represent the data. Then, when the program is executed, the variables are replaced with real data. This makes it possible for the same program to processdifferent sets of data.</li>
+          <li> They give us a way to store the value of important data. A variable's data type indicates what sort of value the variable represents, such as whether it is an integer, a floating-point number, or a character.</li>
+          <li>They give us a way to change the value of something. When you assign a value to a variable, you replace the old value with a new one. The old value is gone forever. You can, and often do, replace the old value of a variable based on the current value of the variable.  </li>
+        </ul>
+      </div>
+    </div>
+  <div class = "concept">
+      <div class="concept-title">
+        What is the difference between <span>5 + 6</span> and <span>"5" + "6"</span>?
+      </div>
+      <div class="concept-description">
+        <p>
+          In Python, anything in "quotes" called a string. A <b>string</b> is just a sequence of characters surronded by quotes. We can use single quote (' ') and double quote (" "), but cannot mix quotes. If you start with single quote,it has to end with single quote, and if you start with double quote, it has to end with double quote.
+        </p>
+	<p> So, when we do 5 + 6 --- output will be 11.</p>
+	<p> So, when we do "5" + "6" --- output will be 56.</p>
+             </div>
+</div>
+	
+<h2 class = "lesson"> Lesson 3: Input -> Function -> Output</h2>
+	
+   <div class = "concept">
+      <div class="concept-title">
+        What is a function (Dave calls them "procedures")?
+      </div>
+      <div class="concept-description">
+        <p>
+          A group of "statement" is called a funtion. A fuction has a set of inputs, an expression that computes the      	return value of given set of inputs and produces output. This inputs are sometimes called "operands" or they are sometimes called "arguement".The functions are defined using the word def which stands for define . The def keyword is followed by the function name with round brackets and a colon. The indented statements form a body of the function.
+The function is later executed when needed. We say that we call the function. If we call a function, the statements inside the function body are executed. They are not executed until the function is called. 
+        </p>
+      </div>
+   </div>
+   <div class = "concept">
+      <div class="concept-title">
+        What is the difference between <b>making</b> and <b>using</b> a function?
+      </div>
+      <div class="concept-description">
+        <p> We define functions by writing code like what you see in lines 1 through 3 ( making a function) in following example. We use functions by writing code like what you see in lines 5 and 6 (using a function) in following example.
+          </p> Example:<br>
+	<p> <b> Code </b> </p>
+	<ol start = "1">
+	<li> def say_hello(name):
+	<li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;greeting = "Hello" + name + "!"
+	<li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return greeting
+	<br><br>
+	<li> print say_hello("Mr.X")
+	<li> print say_hello("Mrs.X")	
+	</ol>
+	
+	<p> <b> Result </b> </p>
+	<span> Hello Mr.X! </span><br>
+	<span> Hello Mrs.X! </span>
+	 
+        </div>  
+        </div>
+	<div class = "concept">
+      <div class="concept-title">
+        How do functions help programmers avoid repetition?
+      </div>
+      <div class="concept-description">
+        <p>
+          Functions like are called "hard-coded". That means, once you define function, it never change. Everytime when you call that functions , it does the exact same thing.
+        </p>
+      </div>
+      </div>
+<div class = "concept">
+      <div class="concept-title">
+        What happens if a function doesn't have a  <span>return</span> statement?
+      </div>
+      <div class="concept-description">
+        <p>
+          If you want the function to give back an answer, you use the "return" statement. If a function doesn't have a return statement, it will make the computer do some work when we call that fuction but it does not produce any output.
+        </p>
+	<p> Example:<br>
+	<p> <b> Code </b> <br>
+	
+	 <p>def sum (a , b):<br>
+	<span>&nbsp;&nbsp;&nbsp;&nbsp;  a = a + b </span> <br>
+		<br>
+	 print sum (4 , 3) <br>
+	 print sum (5 , 5) </p>	
+	
+	
+	<p> <b> Result </b> <br> <br>
+	<span> None  </span><br>
+	<span> None  </span> </p>
+	
+	<p> The reason the result is None is, while the sum procedure does not actually return anything, so there is no value there.<b> Python </b> uses the special value "None" to mean there is no value.
+ 
+    </div>
+  </div>
+	
+		<h2 class = "lesson"> Lesson 4: Control Flow and Loops: If and While </h2>
+	<div class = "concept">
+	<div class="concept-title">
+        Making Decision
+      </div>
+	
+      <div class="concept-description">
+        <p> To making decision, the first thing is to figgure out some way to make comparisions, so we have a way to test and decide what we should do. </p>
+	<p> Python provides lots of differnent operatores for doing comparisions. e.g. >= , &lt;= , == , != ,...etc. There are things similar to what we've used in math. The output of a comparison is not a number. It is a Boolean value , i.e. <b>True</b> or <b>False</b>.
+</div>
+</div>
+<div class = "concept">
+	<div class ="concept-title">
+	If Statement
+	</div>
+	<div class="concept-description">
+	<p> The structure of if statement: we have the keyword,"if",followed by a comparison(test expression),followed by a colon and inside the if statement the block. The block is the code that will run  when the comparison is True. If the comparison does not evaluate to True, the the block does not execute.</p>
+</div>
+</div>
+	<div class ="concept">
+	<div class ="concept-title">
+	While Loops
+	</div>
+	<div class= "concept-description">
+	<p> Loops which will let you write code that does the same thing over and over.It is also very useful for lots and lots procedures. The syntax for while loop: keyword "while",followed by a test expression ,followed by a colon,and then inside the while loop is a code.  That is similar to if statement but with "while", the block can execute any number of times as long as the test expression is "True", it keep executing the block. When test expression is "Flase", it will go to next instruction.</p>
+<p> A loop that never stops is call an infinite loop, that means it keeps going forever. When there a bug (mistake) in program then "the loop test is never false, that means the loop runs forever", or "the loop test is always true, that means the loop runs forever". 
+	</div>
+</div>
+   <h2 class = "lesson"> Lesson 5: Debugging </h2>
+	<div class = "concept">
+		<div class = "concept-title">
+	Debugging
+		</div>
+	<div class = "concept-description">
+<p> In computers, debugging is the process of locating and fixing or bypassing bugs (errors) in computer program code or the engineering of a hardware device. To debug a program or hardware device is to start with a problem, isolate the source of the problem, and then fix it. Bugs are inevitable and important thing into avoid them entirely is to develop a strategy for systematicallly getting rid of it. Bugs makes the code crash and usually give come kind of error message. Error messages can be confusing but it give some information besides what did not work.python gives a traceback error which gives you what line of code crashed on and what kind of error in code. We can look up that error message,find out what to do about it and fix it.</p>
+</div>
+</div>
+	
+		<h2 class = "lesson"> Lesson 6: Structured Data: Lists and For Loops </h2>
+	<div class = "concept">
+	<div class="concept-title">
+        Lists
+      </div>
+	
+      <div class="concept-description">
+          <p>List is one of the most used & useful data structures available in python. Creating a list is as simple as putting different comma-separated values between squere brackets. For example list = [1,2,3]. List can hold anything like numbers,characters, strings and including another list. We can use square brackets to access the elements. Lists support mutation. <b>Mutation</b> means is we can change the value of a list after we have created it.</p><p> For example: <br></p>
+ p = ['H','e','l','l','o']<br> p[3]---> 'l' <br> p[0] = 'Y' <br> print p <br> ['Y','e','l','l','o']<br><br>
+	</div>
+	</div>
+<div class = "concept">
+<div class="concept-title">
+        List Operations
+      </div>
+	      <div class="concept-description">
+          <p> <b> append:</b> &lt;list&gt;<b>.</b>append(&lt;element&gt;) <span> Add an item to the end of the list. For example:</span><br> p = [1, 2] <br> p<b>.</b>append(3) <br> p = [1,2,3] <br></p>
+	  <p> <b> Plus(+):</b> &lt;list&gt; + &lt;list&gt; <span> The plus operator behaves very similar to the concatenation operation for strings. It produces a new list that consists of all the elements in the two lists put together. For example:</span><br> [1,2] + [3,4] <br>[1,2,3,4]<br></p>
+          <p> <b> len:</b> len (&lt;list&gt;)<span>The len() function returns the number of elements of a list. len is short for length. It works for strings and any objects that is a collection of things.  For example:</span><br> len([0,1])<br> 2<br></p>
+	</div>
+	</div>
+<div class = "concept">
+<div class="concept-title">
+        The difference between append and plus(+)
+      </div>
+	
+      <div class="concept-description">
+	<p> For example: </p>
+       
+	<table>
+  
+  <tr>
+    <td>
+<p> p = [1, 2] <br> q = [3, 4] <br> p.append(q) <br> print p <br> [1, 2, [3, 4]]<br> print len(p)<br>3 </p>
+</td>
+<td></td><td></td><td></td><td></td>
+<td>
+<p> p = [1, 2] <br> q = [3, 4] <br> s = p + q <br>print s <br> [1, 2, 3, 4]<br> print len(s)<br> 4</p></td>
+</tr>
+  
+</table>
+
+    <p> The append operation which is invoked on a list and takes an element as a parameter and adds that element to the end of the list. Where the plus operator which operates on two lists as its operands and produces a new list that consists of all the elements in the two list. </p>
+	
+  </div>
+	
+</div>
+<div class = "concept">
+<div class="concept-title">
+        For Loops
+      </div>
+	
+      <div class="concept-description">
+<p> Loops are collections of things, it is very useful to be able to go through a list and do something with every element of the list. Python provides a simpler way to loop through elements of the list, and that is called a for-loop.The structure of for loop: <br> for &lt;name&gt; in &lt;list&gt;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  # new name for variable that we can introduce <br>&nbsp;&nbsp;&nbsp; &lt;block&gt;</p><p> For Example:</p><p> <b> Code </b> </p> <p>example_list_1 = ['a', 'b', 'c', 'd'] <br>
+for thing in example_list_1:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print thing<br><p> <b> Result </b> <br> <br>'a'<br>'b'<br>'c'<br>'d'</p>
+</div>
+</div>
+<div class = "concept">
+<div class="concept-title">
+        Index : Built- in list operation
+      </div>
+	
+      <div class="concept-description">
+	<p> <b> index:</b> &lt;list&gt;<b> .</b> index(&lt;x&gt;)<span> Return the index in the list of the first item whose value is x. It gives an error if there is no such item.</span></p>
+</div>
+</div>
+		<h2 class = "lesson"> Lesson 7: How to Solve Problems </h2>
+	<div class = "concept">
+<div class="concept-title">
+        How to solve problems
+      </div>
+	
+      <div class="concept-description">
+<p> Pythonista's Guide to solve All problems </p>
+<ol>
+  <li> Don't Panic!</li>
+  <li> Understand the problem.</li>
+  <li> What are the inputs?</li>
+  <li> What are the outputs?</li>
+  <li> Work through some example by hand.</li>
+  <li> Simple mechanical solution that will be able to turn into code. </li>
+  <li> Develop our solution incrementally in small steps that we can test as we go.</li> 
+  
+</ol>  
+</div>
+	</div>
+
+
+ </body>
+  </html>
+
